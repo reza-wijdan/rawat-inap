@@ -8,7 +8,6 @@ interface Props {
   placeholder?: string;
   error?: string | null;
 }
-
 export default class Input extends React.Component<Props> {
   handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     this.props.onChange(e.target.value);

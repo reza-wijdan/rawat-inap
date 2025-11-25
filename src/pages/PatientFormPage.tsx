@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import PatientForm from "../components/forms/PatientForm";
 
 export default class PatientFormPage extends Component {

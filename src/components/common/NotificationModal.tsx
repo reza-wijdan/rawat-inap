@@ -12,7 +12,6 @@ const NotificationModal: React.FC<NotificationModalProps> = ({
     show,
     title = "Berhasil",
     message,
-    onClose,
 }) => {
     if (!show) return null;
 

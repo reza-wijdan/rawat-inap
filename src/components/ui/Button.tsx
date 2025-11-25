@@ -1,6 +1,3 @@
-import React from 'react';
-
-
 export default function Button({ children, onClick, type = 'button', disabled = false }: any) {
     return (
         <button
