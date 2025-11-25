@@ -113,7 +113,7 @@ class PatientListPage extends Component<Props, State> {
         return (
             <div className="p-6">
                 <div className="flex items-center justify-between mb-4">
-                    <h2 className="font-semibold text-lg">Daftar Pasien</h2>
+                    <h2 className="font-semibold text-xl">Daftar Pasien</h2>
 
                     <Link
                         to="/add-patient"
@@ -174,9 +174,7 @@ class PatientListPage extends Component<Props, State> {
                 </div>
 
                 {/* TABLE */}
-                <div className="bg-white p-4 rounded shadow">
-                    <PatientTable data={paginated} />
-                </div>
+                <PatientTable data={paginated} />
 
                 {/* PAGINATION */}
                 <div className="flex items-center justify-between mt-4">
